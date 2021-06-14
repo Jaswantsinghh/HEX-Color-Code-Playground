@@ -1,0 +1,54 @@
+html, body
+{
+    margin: 10;
+    height: 100vh;
+}
+#flex-cntr
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#hex-code
+{
+    font-family: monospace;
+    font-size: xx-large;
+    padding: 2%;
+    border-color:grey;
+    border-width: thick;
+    background-color: gainsboro;
+}
+#flex2
+{
+    display: flex;
+}
+#btn, #enterCode
+{
+    background-color: springgreen;
+    padding: 2%;
+    margin: 2%;
+    font-family: monospace;
+    font-size: larger;
+    font-weight: bold;
+    border-width: thick;
+    border-color: seagreen;
+}
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family: monospace;
+}
+
+#copy
+{
+    background-color: springgreen;
+    border-color: seagreen;
+    font-size: smaller;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 1%;
+}
