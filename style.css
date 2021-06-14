@@ -1,7 +1,7 @@
 html, body
 {
     margin: 10;
-    height: 100vh;
+    height: 70vh;
 }
 #flex-cntr
 {
@@ -9,13 +9,14 @@ html, body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
 }
 #hex-code
 {
     font-family: monospace;
     font-size: xx-large;
     padding: 2%;
+    margin: 10%;
     border-color:grey;
     border-width: thick;
     background-color: gainsboro;
